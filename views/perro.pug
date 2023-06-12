@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title #{raza}
+    meta(charset="utf-8")
+    link(rel="stylesheet" href="perro.css")
+
+  body
+    main
+      h1 #{raza}
+      figure
+        img( src=data.imagen width=750)
+        figcaption #{data.texto}
+      a(href="/") Regresar
+
+
+//CONCLUSIÓN: Se pueden utilizar las herramientas tradicionales como Bootstrap y mas sin problemas
+//Ya tenemos una página sencilla utilizando Node, Express y Pug. Pug obviamente no es obligatorio pero son herramientas que simplifican
+//mucho el trabajo con Node.js y hay más herramientas con Express como ser
+//Express administrator que nos permite crear herramientas mucho mas potentes y así
